@@ -78,7 +78,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'blogserver.wsgi.application'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000"
+    "https://blogappfrontend.herokuapp.com"
 ]
 
 
