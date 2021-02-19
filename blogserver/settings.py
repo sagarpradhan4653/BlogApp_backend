@@ -28,7 +28,7 @@ SECRET_KEY = '$p_0!x_r#!)a*is=j8+5q#q-5pd#b+4vxbbxfi$jc*z7%u9a!k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['blogappback.herokuapp.com','127.0.0.1']
 
 
 # Application definition
@@ -92,10 +92,10 @@ CORS_ALLOWED_ORIGINS = [
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME':'Blog',
-        'USER':'postgres',
-        'PASSWORD':'4653',
-        'HOST':'localhost',
+        'NAME':'d8a4i9th29978k',
+        'USER':'cqmlqespzjcqvv',
+        'PASSWORD':'ed982879a3ca1a6ed98284328bdce6485527aff7239c58800e54d26741220a87',
+        'HOST':'ec2-54-198-73-79.compute-1.amazonaws.com',
     }
 }
 
