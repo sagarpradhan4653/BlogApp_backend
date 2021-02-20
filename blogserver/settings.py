@@ -30,7 +30,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['blogappback.herokuapp.com','127.0.0.1']
 
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
 
 # Application definition
 
